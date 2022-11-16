@@ -1,0 +1,431 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #f5f5f7c0;
+}
+
+a:hover {
+    color: #f5f5f7;
+}
+
+#ac-globalnav {
+    width: 100%;
+    min-width: 1024px;
+    //height: 43px;
+    display: flex;
+    justify-content: center;
+}
+
+.ac-gn-list {
+    width: 980px;
+    //height: 43px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    //background-color: #0071e3;
+    margin: 0;
+    padding: 0 22px 0 22px;
+}
+
+.ac-gn-list-link {
+    font-size: 11px;
+    letter-spacing: -0.12px;
+    opacity: 0.8;
+    //padding: 2px;
+}
+
+#logo {
+    width: 30px;
+    height: 43px;
+}
+
+#store {
+    width: 46px;
+    height: 43px;
+}
+
+#mac {
+    width: 39px;
+    height: 43px;    
+}
+
+#ipad {
+    width: 40px;
+    height: 43px;
+}
+
+#iphone {
+    width: 54px;
+    height: 43px;
+}
+
+#watch {
+    width: 51px;
+    height: 43px;
+}
+
+#airpods {
+    width: 59px;
+    height: 43px;
+}
+
+#tv {
+    width: 81px;
+    height: 43px;
+}
+
+#onlyOnApple {
+    width: 96px;
+    height: 43px;
+}
+
+#accesories {
+    width: 83px;
+    height: 43px;
+}
+
+#support {
+    width: 60px;
+    height: 43px;
+}
+
+#search {
+    width: 31px;
+    height: 43px;
+}
+
+#bag {
+    width: 29px;
+    height: 43px;
+}
+
+a.fill-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+#ac-localnav {
+    width: 100%;
+    min-width: 1024px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    background-color: #151516;
+    border-bottom: solid 1px #90909055;
+}
+
+.ac-ln-content {
+    width: 980px;
+    height: 51px;
+    //background-color: #555;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ac-ln-content-list {
+    list-style: none;
+    font-size: 12px;
+    padding: 0;
+    width: 329px;
+    height: 51px;
+    //background-color: darkolivegreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.ac-ln-button {
+    width: 44px;
+    height: 22px;
+    background-color: #0071e3;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ac-ln-button:hover {
+    background-color: #1c83eb;
+}
+
+#macbook {
+    font-size: 21px;
+    color: #ececec;
+}
+
+#overview {
+    color: #f5f5f7c0;
+}
+
+#whyMac {
+    color: #f5f5f7;
+}
+
+#whyMac:hover {
+    color: #0071e3;
+}
+
+#techSpecs {
+    color: #f5f5f7;
+}
+
+#techSpecs:hover {  
+    color: #0071e3;
+}
+
+#button {
+    color: #f5f5f7;
+}
+
+.section-hero {
+    width: 100%;
+    min-width: 1024px;
+    height: 1260px;
+    //margin-bottom: -2px;
+}
+
+.section-content {
+    width: 980px;
+    height: 1180px;
+    margin: 0 auto 100px;
+}
+
+.hero-media {
+    display: flex;
+    justify-content: center;
+    padding-top: 67px;
+    margin-bottom: -2px;
+    z-index: -1;
+
+}
+
+.hero-eyebrow {
+    width: 980px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: -130px;
+    left: 0;
+    right: 0;
+
+}
+
+.hero-headline {
+    width: 980px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: -120px;
+}
+
+.hero-copy {
+    width: 900px;
+    height: 199px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: -90px;
+}
+
+.hero-callout {
+    width: 1000px;
+    height: 93px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: -30px;
+}
+
+.hero-cta {
+    width: 980px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.hero-cta-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.hero-cta-item {
+    color: #f5f5f7;
+    font-size: 28px;
+    font-weight: normal;
+    padding: 0 20px;
+}
+
+.hero-cta-greaterThan {
+    padding-top: 5px;
+    margin-left: -10px;
+}
+
+#hero-h1 {
+    color: #f5f5f7;
+    font-size: 40px;
+}
+
+#hero-h2 {
+    font-size: 96px;
+    background: -webkit-linear-gradient(#c3c5d1, #5c5d62);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#hero-p {
+    color: #cbcbd0;
+    font-size: 32px;
+    text-align: center;
+}
+
+#hero-h3 {
+    color: #d2d2d7;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+
+.section-chip {
+    width: 100%;
+    min-width: 1024px;
+    height: 1031px;
+    padding-top: 170px;
+}
+
+.section-header {
+    width: 100%;
+    min-width: 1024px;
+    height: 1031px;
+}
+
+.section-content {
+    width: 980px;
+    height: 1031px;
+}
+
+.section-eyebrow {
+    width: 980px;
+    height: 83px;
+    margin: 28px 0 38px;
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -.045em;
+    text-align: center;
+}
+
+.picture-wrap {
+    width: 980px;
+    height: 433px;
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-header-intro {
+    width: 980px;
+    height: 191px;
+    margin: 38px 0;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: .007em;
+    text-align: center;
+}
+
+.badges-wrap {
+    width: 980px;
+    height: 85px;
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge {
+    width: 170px;
+    height: 85px;
+    margin: 0 25px;
+}
+
+.badge-content {
+    color: #ffffff;
+}
+
+.badge-caption {
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+}
+
+.badge-value {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.modal-trigger-wrapper {
+    width: 160px;
+    height: 51px;
+    margin: 70px 409px 218px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    padding: 14px 16px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400; 
+    color: #fff;  
+    background: linear-gradient(black, black) padding-box, linear-gradient(to right, #997736, #881077) border-box;
+    border-radius: 10em;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button::after {
+    content: "⊕";
+    padding-left: 5px;
+}
+
+.button:hover {
+    color: black;
+    background: white;
+    border: none;
+
+
+}
